@@ -43,7 +43,7 @@ public class eCommerce_tc_2 extends AndroidBaseTest{
 	public void FillForm_ErrorValidation() throws InterruptedException
 	{
 		
-	//	driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Rahul Shetty");
+	//	driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("sowmiya");
 		driver.hideKeyboard();
 		driver.findElement(By.xpath("//android.widget.RadioButton[@text='Female']")).click();
 		driver.findElement(By.id("android:id/text1")).click();

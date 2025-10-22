@@ -26,7 +26,7 @@ public class FormPage extends AndroidActions{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this); //
 		
 	}
-	//	driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Rahul Shetty");
+	//	driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("sowmiya");
 	
 	
 	@AndroidFindBy(id="com.androidsample.generalstore:id/nameField")
